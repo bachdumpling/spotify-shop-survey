@@ -6,7 +6,7 @@ import logo from ".././asset/asset/logo.png";
 function demo() {
   return (
     <div className="bg-black w-screen h-screen grid justify-items-center">
-       <div className="max-w-lg md:max-w-4xl mx-auto h-screen w-screen absolute overflow-hidden">
+      <div className="max-w-lg md:max-w-4xl mx-auto h-screen w-screen absolute overflow-hidden">
         <Link href="/">
           <Image
             className="mx-5 my-5 md:my-10 md:mx-10 w-20 md:w-28"
@@ -20,20 +20,22 @@ function demo() {
             <p className="font-bold text-center capitalize text-xl md:text-4xl">
               spotify shop demo
             </p>
-            <p className="text-center text-xs md:text-base text-gray-400">
+            <p className="text-center text-xs md:text-base text-gray-300">
               View the demo full-screen and explore our shop feature
             </p>
           </div>
-          <div className="grid place-content-center aspect-video pt-5 md:pb-0">
+          <div className="grid place-content-center aspect-video pt-2 md:pb-0">
             <iframe
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqxCMtdK7IJOReyugbRKeGT%2FSpotify%3Fnode-id%3D169%253A2448%26starting-point-node-id%3D169%253A2448%26scaling%3Dscale-down"
               allowFullScreen
               className=" w-[300px] h-[200px] md:w-[700px] md:h-[500px] relative rounded-lg"
-            >Loading ...</iframe>
+            >
+              Loading ...
+            </iframe>
           </div>
-
+            <p className="text-xs text-center pt-2 text-gray-300 font-light md:invisible">Click on the white stripe to view in full screen</p>
           <Link href="/survey">
-            <div className="flex justify-center mt-3 md:mt-5 h-16 items-center">
+            <div className="flex justify-center mt-1 md:mt-5 h-16 items-center md:-translate-y-5">
               <m.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
