@@ -9,7 +9,7 @@ function demo() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 1.5 }}
       className="bg-black w-screen h-screen grid justify-items-center"
     >
       <div className="max-w-lg md:max-w-4xl mx-auto h-screen w-screen absolute overflow-hidden">
