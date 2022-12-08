@@ -6,7 +6,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-black w-screen h-screen grid justify-items-center">
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}
+      className="bg-black w-screen h-screen grid justify-items-center"
+    >
       <Head>
         <title>Spotify Shop Survey</title>
         <meta name="spotify shop" content="survey" />
@@ -54,6 +60,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </m.div>
   );
 }

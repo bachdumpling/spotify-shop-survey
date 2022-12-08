@@ -5,7 +5,13 @@ import logo from ".././asset/asset/logo.png";
 
 function demo() {
   return (
-    <div className="bg-black w-screen h-screen grid justify-items-center">
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}
+      className="bg-black w-screen h-screen grid justify-items-center"
+    >
       <div className="max-w-lg md:max-w-4xl mx-auto h-screen w-screen absolute overflow-hidden">
         <Link href="/">
           <Image
@@ -33,7 +39,9 @@ function demo() {
               Loading ...
             </iframe>
           </div>
-            <p className="text-xs text-center pt-2 text-gray-300 font-light md:invisible">Click on the white stripe to view in full screen</p>
+          <p className="text-xs text-center pt-2 text-gray-300 font-light md:invisible">
+            Click on the white stripe to view in full screen
+          </p>
           <Link href="/survey">
             <div className="flex justify-center mt-1 md:mt-5 h-16 items-center md:-translate-y-5">
               <m.div
@@ -50,7 +58,7 @@ function demo() {
           </Link>
         </div>
       </div>
-    </div>
+    </m.div>
   );
 }
 
