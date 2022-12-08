@@ -16,8 +16,10 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
-          <Main />
-          <NextScript />
+          {/* <div className="bg-black w-screen h-screen grid justify-items-center"> */}
+            <Main />
+            <NextScript />
+          {/* </div> */}
         </body>
       </Html>
     );

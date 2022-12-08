@@ -16,7 +16,7 @@ function demo() {
           />
         </Link>
         <div className="bg-[#222222] h-3/6 md:h-3/4 text-white rounded-xl shadow shadow-gray-800 mx-5 md:mx-10 mt-40 md:mt-20">
-          <div className=" py-3 mx-10 space-y-2">
+          <div className=" py-3 pt-5 mx-10 space-y-2">
             <p className="font-bold text-center capitalize text-xl md:text-4xl">
               spotify shop demo
             </p>
@@ -29,7 +29,7 @@ function demo() {
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqxCMtdK7IJOReyugbRKeGT%2FSpotify%3Fnode-id%3D169%253A2448%26starting-point-node-id%3D169%253A2448%26scaling%3Dscale-down"
               allowFullScreen
               className=" w-[300px] h-[200px] md:w-[700px] md:h-[500px] relative rounded-lg"
-            ></iframe>
+            >Loading ...</iframe>
           </div>
 
           <Link href="/survey">

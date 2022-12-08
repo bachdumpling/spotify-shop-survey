@@ -12,7 +12,10 @@
     "framer-motion": "^7.6.19",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "survey-react": "^1.9.62",
+    "survey-react-ui": "^1.9.62",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
